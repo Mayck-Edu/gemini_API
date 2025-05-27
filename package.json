@@ -1,0 +1,26 @@
+{
+  "name": "gemini_api",
+  "version": "1.0.0",
+  "main": "index.js",
+    "type": "module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayck-Edu/gemini_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayck-Edu/gemini_API/issues"
+  },
+  "homepage": "https://github.com/Mayck-Edu/gemini_API#readme",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.1.0",
+    "dotenv": "^16.5.0"
+  }
+}

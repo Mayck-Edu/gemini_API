@@ -1,0 +1,53 @@
+# Ignorar arquivos e pastas gerados pelo Node.js
+node_modules/
+npm-debug.log
+.npm/
+.yarn-integrity
+.pnp/
+.pnp.js
+
+# Ignorar variáveis de ambiente e arquivos sensíveis
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store # Mac
+Thumbs.db # Windows
+
+# Ignorar logs e caches
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.nyc_output/
+.temp/
+.cache/
+.eslintcache
+.stylelintcache
+
+# Ignorar arquivos de build e distribuição
+dist/
+build/
+out/
+es/
+lib/
+tmp/
+
+# Ignorar configurações de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar arquivos de teste e coverage
+coverage/
+*.tgz
+
+# Ignorar arquivos de sistema operacional temporários
+*.swp
+*.bak
+*~
