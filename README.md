@@ -28,9 +28,22 @@ Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados:
 * **npm**: Vem junto com o Node.js
 
 ### 1. Clonar o Repositório e iniciar
-
 ```bash
 git clone [https://github.com/Mayck-Edu/gemini_API.git](https://github.com/Mayck-Edu/gemini_API.git)
 cd gemini_API
-npm start
+```
 
+### 2. Configuração
+defina a chave de api em:
+**.env**
+```bash
+GOOGLE_API_KEY=sua_chave_de_api
+```
+caso não possua, crie sua chave gratuitamente no Google Gemini
+
+### 3. Inicialização 
+```bash
+cd gemini_API
+
+npm start
+```
