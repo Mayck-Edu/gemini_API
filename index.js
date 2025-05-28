@@ -20,7 +20,7 @@ const ai = new GoogleGenAI({ apiKey: apiKey });
 async function main() {
   const response = await ai.models.generateContent({
     model: "gemini-2.0-flash",
-    contents: "bom diaa",
+    contents: "bom dia",
   });
   console.log(response.text);
 }
