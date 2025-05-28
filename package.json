@@ -2,10 +2,11 @@
   "name": "gemini_api",
   "version": "1.0.0",
   "main": "index.js",
-    "type": "module", 
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test:gemini": "node test_gemini.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
   "description": "",
   "dependencies": {
     "@google/genai": "^1.1.0",
-    "dotenv": "^16.5.0"
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
   }
 }
