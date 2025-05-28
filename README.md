@@ -10,7 +10,7 @@ Um projeto simples em Node.js que demonstra a integração com a **API Google Ge
 
 ## ✨ Funcionalidades
 
-* **Interação via Terminal:** Envie mensagens e receba respostas do Gemini diretamente na linha de comando.
+* **Interação via Terminal:** Envie mensagens e receba respostas do Gemini no seu próprio site!!.
 * **Integração com Gemini API:** Utiliza o poder do modelo de linguagem Gemini para gerar respostas.
 * **Gerenciamento Seguro de Chave API:** Usa variáveis de ambiente (`.env`) para proteger sua chave de API.
 
